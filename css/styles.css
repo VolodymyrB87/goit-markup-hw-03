@@ -93,14 +93,23 @@ img {
   flex-direction: column;
   gap: 48px;
 }
-.quality {
+.section-list {
   display: flex;
-  align-items: flex-start;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .strategy {
   width: calc((100% - 72px) / 4);
+}
+.list {
+  font-family: Roboto;
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .link,
 .link-nav,
@@ -113,10 +122,7 @@ img {
   display: flex;
   align-items: center;
 }
-.section-list {
-  display: flex;
-  gap: 24px;
-}
+
 .list-header {
   display: flex;
   gap: 40px;
@@ -212,15 +218,6 @@ img {
   text-align: center;
 }
 
-.list {
-  font-family: Roboto;
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
 .list-text {
   font-family: Roboto;
   color: #434455;
