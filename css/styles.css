@@ -97,7 +97,6 @@ img {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  gap: 8px;
 }
 
 .strategy {
@@ -216,7 +215,9 @@ img {
 .team-card .list-text {
   text-align: center;
 }
-
+.quality .list {
+  margin-bottom: 8px;
+}
 .list {
   font-family: Roboto;
   color: #2e2f42;
@@ -271,6 +272,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
