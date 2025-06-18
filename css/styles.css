@@ -31,7 +31,10 @@ img {
   margin-right: auto;
 }
 
-.section-one,
+.section-one {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
 .section-two,
 .section-three,
 .section-four {
@@ -66,6 +69,7 @@ img {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 .portfolio-foto {
   width: calc((100% - 48px) / 3);
@@ -95,6 +99,7 @@ img {
   flex-direction: column;
   gap: 8px;
 }
+
 .strategy {
   width: calc((100% - 72px) / 4);
 }
@@ -125,8 +130,6 @@ img {
 .text {
   display: flex;
   width: 264px;
-  margin-top: 16px;
-  margin-bottom: 90px;
 }
 .link-address {
   font-style: normal;
@@ -180,11 +183,13 @@ img {
   cursor: pointer;
   border-radius: 4px;
   padding: 16px 32px;
-
-  display: flex;
+  display: block;
   align-items: center;
   flex-direction: row;
   gap: 10px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 .section-three {
   background-color: #f4f4fd;
@@ -203,10 +208,15 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
+.team-card .list,
+.team-card .list-text {
+  text-align: center;
+}
+
 .list {
   font-family: Roboto;
   color: #2e2f42;
@@ -214,6 +224,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .list-text {
   font-family: Roboto;
@@ -225,6 +236,7 @@ img {
 }
 .ftr {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .text {
   font-family: Roboto;
@@ -259,5 +271,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-top: 100px;
+  display: block;
+  margin-bottom: 16px;
 }
